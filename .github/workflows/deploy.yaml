@@ -1,0 +1,15 @@
+name: "Deploy actions"
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  deploy-actions:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Pull"
+      - run: echo "Migrations"
+      - run: echo "Build"
+      - run: echo "Deploy"
+

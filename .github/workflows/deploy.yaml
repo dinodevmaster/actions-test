@@ -12,4 +12,5 @@ jobs:
       - run: echo "Migrations"
       - run: echo "Build"
       - run: echo "Deploy"
+      - run: echo "Deploy new branch"
 
